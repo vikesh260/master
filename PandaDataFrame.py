@@ -17,3 +17,13 @@ df2 = pd.DataFrame(df2)
 
 for index, coor in df1.iterrows():
     print(coor['LAT'] - df2['LAT'].max(), coor['LONG'] - df2['LONG'].max())
+
+
+
+import numpy
+
+speed = [86,87,88,86,87,85,86]
+
+x = numpy.std(speed)
+
+print(x)
